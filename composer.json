@@ -26,5 +26,7 @@
                 "PDF": "MohamedHekal\\ArabicLaravelMpdf\\Facades\\ArabicLaravelMpdf"
             }
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
