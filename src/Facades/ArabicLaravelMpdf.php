@@ -26,6 +26,6 @@ class ArabicLaravelMpdf extends BaseFacade
      */
     protected static function getFacadeAccessor()
     {
-        return 'arabic-laravel-mpdf';
+        return 'laravel-mpdf';
     }
 }
