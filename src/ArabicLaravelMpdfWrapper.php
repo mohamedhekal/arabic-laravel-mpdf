@@ -1,20 +1,20 @@
 <?php
 
-namespace Hekal\LaravelMpdf;
+namespace MohamedHekal\ArabicLaravelMpdf;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\View;
-use Meneses\LaravelMpdf\LaravelMpdf as Pdf;
+use Meneses\ArabicLaravelMpdf\ArabicLaravelMpdf as Pdf;
 
-class LaravelMpdfWrapper
+class ArabicLaravelMpdfWrapper
 {
     /**
      * @param array $config optional, default []
-     * @return LaravelMpdf
+     * @return ArabicLaravelMpdf
      */
     public function getPdf($config = [])
     {
-        return new LaravelMpdf($config);
+        return new ArabicLaravelMpdf($config);
     }
 
     /**

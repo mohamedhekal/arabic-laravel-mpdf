@@ -13,16 +13,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Hekal\\LaravelMpdf\\": "src/"
+            "MohamedHekal\\ArabicLaravelMpdf\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Hekal\\LaravelMpdf\\LaravelMpdfServiceProvider"
+                "MohamedHekal\\ArabicLaravelMpdf\\ArabicLaravelMpdfServiceProvider"
             ],
             "aliases": {
-                "PDF": "Hekal\\LaravelMpdf\\Facades\\LaravelMpdf"
+                "PDF": "MohamedHekal\\ArabicLaravelMpdf\\Facades\\ArabicLaravelMpdf"
             }
         }
     }

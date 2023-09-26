@@ -1,13 +1,13 @@
 <?php
 
-namespace Hekal\LaravelMpdf\Facades;
+namespace MohamedHekal\ArabicLaravelMpdf\Facades;
 
 use Illuminate\Support\Facades\Facade as BaseFacade;
-use Hekal\LaravelMpdf\LaravelMpdf as Pdf;
+use MohamedHekal\ArabicLaravelMpdf\ArabicLaravelMpdf as Pdf;
 
 /**
- * Class LaravelMpdf
- * @package Hekal\LaravelMpdf\Facades
+ * Class ArabicLaravelMpdf
+ * @package MohamedHekal\ArabicLaravelMpdf\Facades
  *
  * @method static Pdf loadHTML(string $html, ?array $config = [])
  * @method static Pdf loadFile(string $file, ?array $config = [])
@@ -16,7 +16,7 @@ use Hekal\LaravelMpdf\LaravelMpdf as Pdf;
  * @method static Pdf chunkLoadFile(string $separator, string $file, ?array $config = [])
  * @method static Pdf chunkLoadView(string $separator, string $view, ?array $data = [], ?array $mergeData = [], ?array $config = [])
  */
-class LaravelMpdf extends BaseFacade
+class ArabicLaravelMpdf extends BaseFacade
 {
 
     /**

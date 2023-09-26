@@ -26,14 +26,14 @@ To start using Laravel, add the Service Provider and the Facade to your `config/
 ```php
 'providers' => [
     // ...
-    Hekal\LaravelMpdf\LaravelMpdfServiceProvider::class
+    MohamedHekal\ArabicLaravelMpdf\ArabicLaravelMpdfServiceProvider::class
 ]
 ```
 
 ```php
 'aliases' => [
     // ...
-    'PDF' => Hekal\LaravelMpdf\Facades\LaravelMpdf::class
+    'PDF' => MohamedHekal\ArabicLaravelMpdf\Facades\ArabicLaravelMpdf::class
 ]
 ```
 
@@ -222,7 +222,7 @@ You can configure the macro in the `AppServiceProvider` provider file.
 
 ```php
 //...
-use Hekal\LaravelMpdf\LaravelMpdf;
+use MohamedHekal\ArabicLaravelMpdf\ArabicLaravelMpdf;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -230,7 +230,7 @@ class AppServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        LaravelMpdf::macro('hello', function () {
+        ArabicLaravelMpdf::macro('hello', function () {
             return "Hello, World!";
         });
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hekal\LaravelMpdf;
+namespace MohamedHekal\ArabicLaravelMpdf;
 
 use Mpdf\Mpdf;
 use Mpdf\Output\Destination;
@@ -11,9 +11,9 @@ use Illuminate\Support\Traits\Macroable;
  * Laravel Mpdf: mPDF wrapper for Laravel
  *
  * @package laravel-mpdf
- * @author Mohamed Hekal
+ * @author Mohamed MohamedHekal
  */
-class LaravelMpdf
+class ArabicLaravelMpdf
 {
     use Macroable;
 

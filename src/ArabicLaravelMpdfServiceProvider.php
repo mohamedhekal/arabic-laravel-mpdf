@@ -1,11 +1,11 @@
 <?php
 
-namespace Hekal\LaravelMpdf;
+namespace MohamedHekal\ArabicLaravelMpdf;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;
 
-class LaravelMpdfServiceProvider extends ServiceProvider
+class ArabicLaravelMpdfServiceProvider extends ServiceProvider
 {
 
     /**
@@ -33,7 +33,7 @@ class LaravelMpdfServiceProvider extends ServiceProvider
         );
 
         $this->app->bind('laravel-mpdf', function ($app) {
-            return new LaravelMpdfWrapper();
+            return new ArabicLaravelMpdfWrapper();
         });
     }
 
