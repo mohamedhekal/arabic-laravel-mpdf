@@ -20,10 +20,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MohamedHekal\\ArabicLaravelMpdf\\ArabicLaravelMpdfServiceProvider"
+                "MohamedHekal\\ArabicLaravelMpdf\\ArabicLaravelMpdfServiceProvider::class"
             ],
             "aliases": {
-                "PDF": "MohamedHekal\\ArabicLaravelMpdf\\Facades\\ArabicLaravelMpdf"
+                "PDF": "MohamedHekal\\ArabicLaravelMpdf\\Facades\\ArabicLaravelMpdf::class"
             }
         }
     },
